@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: client-pod
+  labels:
+    component: client-sample
+spec:
+  containers:
+    - name: client
+      image: psavnani/server_client_comm # push your code to docker hub.
+      ports:
+        - containerPort: 3000
