@@ -1,7 +1,7 @@
 # Readme for running the programming Challenge
 
 ## Overview
-For this challenge, as per instructions two files server.py and client.py are created. Server is responsible to generate continous frames of a ball bouncing around the screen using opencv and numpy and send these frames asynchronouly to the Client. Now, Client has to display these frames and parse them to find the coordinates of the ball (I use thresholding and _cv2.moments_ to calculate the centre point) and send them back to the server. Once server recieves these coordinates, it has to calculate the euclidean distance between current coordinates and the recieved coordinates and display on the terminal.
+For this project, we generate two files server.py and client.py are created. Server is responsible to generate continous frames of a ball bouncing around the screen using opencv and numpy and send these frames asynchronouly to the Client. Now, Client has to display these frames and parse them to find the coordinates of the ball (I use thresholding and _cv2.moments_ to calculate the centre point) and send them back to the server. Once server recieves these coordinates, it has to calculate the euclidean distance between current coordinates and the recieved coordinates and display on the terminal.
 
 ---
 ## Dependencies
