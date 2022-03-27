@@ -55,7 +55,7 @@ For this project, we generate two files server.py and client.py are created. Ser
   ```
   docker run <your_docker_id>/<project_root_directory>
   ```
-- To push dokcer image to remote repository:
+- To push docker image to remote repository:
   ```
   docker push <your_docker_id>/<project_root_directory>:latest
   ```
