@@ -3,8 +3,7 @@
 ## Overview
 For this project, we generate two files server.py and client.py are created. Server is responsible to generate continous frames of a ball bouncing around the screen using opencv and numpy and send these frames asynchronouly to the Client. Now, Client has to display these frames and parse them to find the coordinates of the ball (I use thresholding and _cv2.moments_ to calculate the centre point) and send them back to the server. Once server recieves these coordinates, it has to calculate the euclidean distance between current coordinates and the recieved coordinates and display on the terminal.
 
-![ball](assets/ball.gif)
-![error](assets/error.gif)
+
 ---
 ## Dependencies
 - Ubuntu 18.04 (Operating System)
@@ -47,6 +46,13 @@ For this project, we generate two files server.py and client.py are created. Ser
   pytest -v test_YOUR_SCRIPT.py
   ```
 
+---
+## Output
+
+![ball](assets/ball.gif)
+![error](assets/error.gif)
+
+---
 ---
 ## Docker Build and Run Instructions
 - To build the docker image from terminal run (same commands for both server and client, just change the directory):
