@@ -49,7 +49,7 @@ For this project, we generate two files server.py and client.py are created. Ser
 ---
 ## Output
 
-![ball](assets/ball.gif)  ![error](assets/error.gif)
+![ball](assets/ball.gif)
 
 
 ---
